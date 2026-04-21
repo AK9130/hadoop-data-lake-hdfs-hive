@@ -4,6 +4,24 @@
 
 This project demonstrates how to store large-scale transaction data in Hadoop HDFS and perform analytical queries using Apache Hive.
 
+## Project Structure
+
+└── bank_transactions
+│       └── bank_transaction.csv
+├── docs
+│   └── project_documentation.md
+├── hive_scripts
+│   └── create_table.sql
+├── output
+│   ├── hdfs_dataset.png
+│   ├── hive_analysis_result.png
+│   ├── hive_table_data.png
+│   ├── top10_highest_transactions.png
+│   └── transaction_type_total_amount.png
+├── queries
+│   └── analysis_queries.sql
+└── README.md
+
 ## Technologies Used
 
 * Hadoop HDFS
