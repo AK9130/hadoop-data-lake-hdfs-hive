@@ -1,12 +1,26 @@
-# Hadoop Data Lake using HDFS and Hive
 
-## Project Description
 
-This project demonstrates how to store large-scale transaction data in Hadoop HDFS and perform analytical queries using Apache Hive.
+ Bank Transaction Data Lake using Hadoop HDFS and Hive
+
+## Overview
+
+This project builds a simple data lake pipeline using Hadoop HDFS and Hive.
+A banking transaction dataset is stored in HDFS, processed in Hive, and converted from CSV to Parquet for efficient querying.
+This project simulates a real-world banking analytics use case.
+
+## Tech Stack
+
+* Hadoop HDFS
+* Apache Hive
+* Linux
+* SQL / Parquet
 
 ## Project Structure
+
 ```
-└── bank_transactions
+.
+├── data_sets
+│   └── bank_transactions
 │       └── bank_transaction.csv
 ├── docs
 │   └── project_documentation.md
@@ -21,28 +35,42 @@ This project demonstrates how to store large-scale transaction data in Hadoop HD
 ├── queries
 │   └── analysis_queries.sql
 └── README.md
+
 ```
-## Technologies Used
-
-* Hadoop HDFS
-* Apache Hive
-* Linux
-
-## Dataset
-
-Bank Transaction Dataset (CSV format)
 
 ## Workflow
 
-CSV Dataset → HDFS Storage → Hive External Table → Hive Queries → Data Analysis
+CSV → HDFS → Hive External Table → Parquet Conversion → Analysis
 
-## Analysis Performed
+## How to Run
 
-* Transaction type wise count
-* Total amount by transaction type
+```bash
+# Upload data to HDFS
+hdfs dfs -put data_sets/bank_transactions/bank_transaction.csv /user/aaqib/input_projects/4_hadoop_data_lake
+```
+
+```bash
+# Create tables
+hive -f hive_scripts/create_table.sql
+```
+
+```bash
+# Run queries
+hive -f queries/analysis_queries.sql
+```
+
+## Analysis
+
+* Transaction type count
+* Top destination accounts
+* Total transaction amount (type-wise)
 * Top 10 highest transactions
+
 
 ## Outcome
 
-Efficient storage and analysis of large-scale transaction data using the Hadoop ecosystem.
+Built a basic data lake using HDFS and Hive with optimized storage using Parquet.
 
+## Key Learning
+
+HDFS storage, Hive tables, and data format optimization.
