@@ -107,7 +107,7 @@ The project performs five analyses:
    - Counts transactions for each transaction type.
 
 2. **Destination Account Count**
-   - Counts transactions for destination accounts and returns the first 10 results.
+   - Counts transactions for destination accounts and returns the first 10 results. -
 
 3. **Transaction Type Wise Total Amount**
    - Calculates the total transaction amount for each transaction type.
