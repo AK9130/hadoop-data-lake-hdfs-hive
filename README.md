@@ -104,19 +104,19 @@ queries/analysis_queries.hql
 The project performs five analyses:
 
 1. **Transaction Type Wise Count**
-   - Counts transactions for each transaction type.
+   Counts transactions for each transaction type.
 
 2. **Destination Account Count**
-   - Counts transactions for destination accounts and returns the first 10 results. -
+   Counts transactions for destination accounts and returns the first 10 results. 
 
 3. **Transaction Type Wise Total Amount**
-   - Calculates the total transaction amount for each transaction type.
+   Calculates the total transaction amount for each transaction type.
 
 4. **Destination Wise Total Amount**
-   - Calculates the total transaction amount for destination accounts and returns the first 10 results.
+   Calculates the total transaction amount for destination accounts and returns the first 10 results.
 
 5. **Top 10 Biggest Transactions**
-   - Sorts transactions by amount in descending order and returns the 10 highest-value transactions.
+   Sorts transactions by amount in descending order and returns the 10 highest-value transactions.
 
 The same analysis results are also written to HDFS as Parquet output directories.
 
