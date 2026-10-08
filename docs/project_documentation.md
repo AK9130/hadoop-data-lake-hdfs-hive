@@ -1,4 +1,4 @@
-# Project Documentation — Hadoop Data Lake Using HDFS and Hive
+# Project Documentation _ Hadoop Data Lake Using HDFS and Hive
 
 ## 1. Hive Table Implementation
 
