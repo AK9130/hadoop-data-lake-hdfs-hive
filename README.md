@@ -22,7 +22,7 @@ The project uses a bank transaction dataset in CSV format.
 **Dataset file:**
 
 ```text
-data_sets/bank_transactions/bank_transaction.csv
+/user/aaqib/input_projects/4_hadoop_data_lake/bank_transaction.csv
 ```
 
 Main fields include:
