@@ -131,7 +131,7 @@ These are Parquet output directories, not Hive tables.
 
 ---
 
-## 6. Screenshots
+## 5. Screenshots
 Project screenshots are stored in:
 
 ```text
@@ -146,7 +146,7 @@ docs/screenshots/
 
 ---
 
-## 7. Main Execution Commands
+## 6. Main Execution Commands
 Upload dataset:
 
 ```bash
