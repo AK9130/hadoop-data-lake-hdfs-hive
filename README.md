@@ -91,7 +91,7 @@ The main processing flow is:
 The table creation script is:
 
 ```text
-hive_scripts/create_table.hql
+hive_scripts/create_tables.hql
 ```
 
 The analysis script is:
