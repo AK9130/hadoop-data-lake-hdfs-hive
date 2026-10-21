@@ -18,7 +18,8 @@ isFlaggedFraud INT
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/aaqib/input_projects/4_hadoop_data_lake';
+LOCATION '/user/aaqib/input_projects/4_hadoop_data_lake'
+TBLPROPERTIES ("skip.header.line.count"="1");
 
 -- then
 
