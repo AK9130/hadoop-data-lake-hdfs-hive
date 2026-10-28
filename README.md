@@ -214,7 +214,7 @@ Notes:
 
 - Pass your HDFS username with `-n`. Without it, Beeline connects as `anonymous` and MapReduce jobs fail with a permission error.
 - The `ALTER TABLE ... RENAME TO bank_transaction` step in `create_tables.hql` should be run only once.
-- Verify the load with `SELECT COUNT(*) FROM bank_transaction;` (expected: 6362620).
+- Verify the load with `SELECT COUNT(*) FROM bank_transaction;` (output: 6362620).
 
 ## 11. Challenges and Learning
 
