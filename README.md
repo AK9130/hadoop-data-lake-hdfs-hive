@@ -183,12 +183,12 @@ Stored under:
 Output directories:
 
 ```text
-transaction_type_count/
 destination_account_count/
-type_wise_total_money/
 destination_wise_total_money/
-top_10_biggest_transactions/
 fraud_by_type/
+top_10_biggest_transactions/
+transaction_type_count/
+type_wise_total_money/
 ```
 ![Hive Result Path](docs/screenshots/11_hive_result_path.png)
 
