@@ -113,6 +113,34 @@ The project performs six analyses:
 5. **Top 10 Biggest Transactions:** the 10 highest-value transactions.
 6. **Fraud Analysis by Transaction Type:** total transactions, fraud count, and fraud percentage for each type.
 
+### Analysis Screenshots
+
+#### 1. Transaction Type Wise Count
+
+![Transaction Type Count](docs/screenshots/04_hive_transaction_type_count.png)
+
+#### 2. Top 10 Destination Accounts by Count
+
+![Destination Account Count](docs/screenshots/05_hive_namedest_count.png)
+
+#### 3. Transaction Type Wise Total Amount
+
+![Transaction Type Total Amount](docs/screenshots/06_type_total_amount.png)
+
+#### 4. Top 10 Destination Accounts by Total Amount
+
+![Destination Account Total Amount](docs/screenshots/07_hive_namedest_total_amount.png)
+
+#### 5. Top 10 Biggest Transactions
+
+![Top 10 Biggest Transactions](docs/screenshots/08_hive_top_10_biggest_transaction.png)
+
+#### 6. Fraud Analysis by Transaction Type
+
+![Fraud Analysis by Transaction Type](docs/screenshots/09_fraud_analysis_by_transaction_type.png)
+
+### Key Findings
+
 ### Key Findings
 
 | Type | Transactions | Total amount (approx.) | Fraud cases | Fraud rate |
