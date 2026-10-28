@@ -149,7 +149,7 @@ The project performs six analyses:
 | PAYMENT | 2,151,495 | 28.1 billion | 0 | 0% |
 | DEBIT | 41,432 | 0.23 billion | 0 | 0% |
 
-- `TRANSFER` has the fewest transactions among the major types but the highest total amount.
+- `TRANSFER` has the highest total transaction amount among the transaction types.
 - All 8,213 fraud cases occur only in `TRANSFER` and `CASH_OUT`.
 - `TRANSFER` has the higher fraud rate (0.77%) compared to `CASH_OUT` (0.18%).
 
