@@ -30,7 +30,7 @@ ORDER BY total_money DESC
 LIMIT 10;
 
 -- Top 10 biggest transactions
-SELECT *
+SELECT type, amount
 FROM bank_transaction
 ORDER BY amount DESC
 LIMIT 10;
