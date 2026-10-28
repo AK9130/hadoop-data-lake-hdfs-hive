@@ -155,8 +155,6 @@ The project performs six analyses:
 - All 8,213 fraud cases occur only in `TRANSFER` and `CASH_OUT`.
 - `TRANSFER` has the higher fraud rate (0.77%) compared to `CASH_OUT` (0.18%).
 
-(The dataset is simulated and the currency unit is not specified, so amounts are shown as plain numbers.)
-
 ## 8. Outputs
 
 ### Hive result tables
