@@ -85,7 +85,7 @@ The main processing flow is:
 2. Create the `bank_datalake` Hive database.
 3. Create the external Text/CSV table `bank_transaction_ext_txt` (with `skip.header.line.count = 1` so the header row is not loaded as data).
 4. Create the managed Parquet table `bank_transaction_manage_parquet`.
-5. Insert the Text/CSV data into the managed Parquet table (`INSERT OVERWRITE`).
+5. Insert the Text/CSV data into the managed Parquet table (`INSERT INTO`).
 6. Create the external Parquet table `bank_transaction_ext_parquet` on top of the managed table's data.
 7. Rename the external Parquet table to `bank_transaction`.
 8. Run Hive analysis queries.
