@@ -201,13 +201,13 @@ hdfs dfs -put data_sets/bank_transactions/bank_transaction.csv /user/aaqib/input
 ### Step 2: Create Hive Tables
 
 ```bash
-beeline -u jdbc:hive2://localhost:10000 -n <your_user> -f hive_scripts/create_tables.hql
+beeline -u jdbc:hive2://localhost:10000 -n aaqib -f hive_scripts/create_tables.hql
 ```
 
 ### Step 3: Run Analysis Queries
 
 ```bash
-beeline -u jdbc:hive2://localhost:10000 -n <your_user> -f queries/analysis_queries.hql
+beeline -u jdbc:hive2://localhost:10000 -n aaqib -f queries/analysis_queries.hql
 ```
 
 Notes:
