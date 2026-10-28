@@ -141,8 +141,6 @@ The project performs six analyses:
 
 ### Key Findings
 
-### Key Findings
-
 | Type | Transactions | Total amount (approx.) | Fraud cases | Fraud rate |
 |---|---|---|---|---|
 | TRANSFER | 532,909 | 485.3 billion | 4,097 | 0.77% |
