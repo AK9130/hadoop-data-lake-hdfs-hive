@@ -252,7 +252,6 @@ Notes:
 ### Challenges
 
 - **Header row loaded as data:** the first count was 6,362,621 instead of 6,362,620. The CSV header was being read as a record. Fixed with `skip.header.line.count = 1` on the external table, and all downstream tables and outputs were rebuilt from clean data.
-- **"Top 10" without ordering:** early queries used `LIMIT 10` without `ORDER BY`, which returns arbitrary rows. Fixed by adding `ORDER BY ... DESC`.
 - **Permission error in Beeline:** running as `anonymous` caused an HDFS permission error for MapReduce. Fixed by passing the correct user with `-n`.
 - **Re-runnable scripts:** added `IF NOT EXISTS`, `DROP TABLE IF EXISTS`, and `INSERT OVERWRITE` so scripts can be re-run without errors or duplicate data.
 
